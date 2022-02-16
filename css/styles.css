@@ -1051,16 +1051,16 @@ input[type='checkbox'] {
 .section-testemonial  {
 	padding-top: 5.25rem;
 	padding-bottom: 0.1rem;
-	background-color: #0F701F;
+	background-color: #f9f9f9;
 }
 
 .section-testemonial .row {
-	margin-bottom: 2rem;
+	margin-bottom: 0.5rem;
 }
 
 .section-testemonial .h2-heading {
 	margin-bottom: 3rem;
-	color: #ffffff;
+	color: #024F0F;
 	text-align: center;
 }
 
@@ -1069,6 +1069,22 @@ input[type='checkbox'] {
 	color: #ffffff;
 	opacity: 0.8;
 	text-align: center;
+}
+
+.section-testemonial .carousel-indicators li {
+	background-color: #024F0F;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+}
+
+.section-testemonial .carousel-item {
+	display: flex;
+	justify-content: center;
+}
+
+.carousel-item.active {
+	z-index: 3;
 }
 
 .section-testemonial .cards {
